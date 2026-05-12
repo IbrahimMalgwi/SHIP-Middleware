@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ship-middleware
+
+ship:
+  base-url: ${SHIP_BASE_URL}
+  token-url: ${SHIP_TOKEN_URL}
+  client-id: ${SHIP_CLIENT_ID}
+  client-secret: ${SHIP_CLIENT_SECRET}
+  hmac-client-id: ${SHIP_HMAC_CLIENT_ID}
+  hmac-secret: ${SHIP_HMAC_SECRET}
+  callback-url: ${SHIP_CALLBACK_URL}
+  facility-id: ${SHIP_FACILITY_ID}
+  organisation-id: ${SHIP_ORGANISATION_ID}
+  ship-path: ${SHIP_PATH}
+  callback-path: ${SHIP_CALLBACK_PATH}
